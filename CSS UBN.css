@@ -1,0 +1,93 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+#contact-form-container{
+    position: absolute;
+    width: 30%;
+    height: 80px; 
+    top: 200px;
+    left: 200px;
+    justify-content: left;
+}
+/* Conteneur parent qui va aligner les éléments */
+/* Conteneur parent qui aligne les éléments */
+#container {
+    display: flex; /* Active Flexbox */
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+    gap: 20px; /* Espace entre chaque conteneur */
+    width: 80%; /* Le conteneur parent occupe 80% de la largeur de la page */
+    margin: 0 auto; /* Centre le conteneur parent sur la page */
+    text-align: center;
+}
+
+
+/* Styles des conteneurs individuels */
+#Fit-container, #X-container, #Street-container {
+    background-color: #ffffff; /* Couleur de fond */
+    border-color: #000000; /* Couleur de bordure */
+    padding: 20px; /* Espacement interne */
+    border-radius: 30px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgb(0, 0, 0); /* Ombre */
+    text-align: center; /* Centre le texte à l'intérieur */
+    width: 70%; /* Chaque conteneur prend 30% de la largeur parentale (pour un total de 90%) */
+    margin: 5px; /* Espacement entre les conteneurs */
+    height: 500px; /* Hauteur fixe */
+}
+
+
+#Pstreet-container, #Px-container, #Pfit-container {
+    background-color: #ffffff;
+    border-color: #000000;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    width: 350px;
+    height: 500px;
+
+    /* Ombre en bas et à droite */
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn {
+    margin: 10px 0;
+    padding: 10px;
+    width: 50%;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-color:  #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.btn:hover {
+    background-color: #6b6a6a;
+}
+
+.hide {
+    display: none;
+}
+#slideshow-image,#slideshow-nova-x, #slideshow-nova-street {
+    cursor: pointer; /* Change le curseur pour indiquer que l'image est cliquable */
+}
+#nova-fit-index,#nova-x-index, #nova-street-index {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
